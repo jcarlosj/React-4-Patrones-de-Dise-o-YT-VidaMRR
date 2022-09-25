@@ -1,4 +1,4 @@
-import HocPattern from './components/HocPattern';
+import HocPattern from './components/hoc-pattern/Main';
 
 import './App.css';
 

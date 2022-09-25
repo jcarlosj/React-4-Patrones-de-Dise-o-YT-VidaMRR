@@ -1,5 +1,5 @@
 import Product from './Product';
-import { filterItems } from '../../helpers/filter.helper';
+import { filterItems } from '../helpers/filter.helper';
 
 // Functional Component
 export default function ProductList({ query, dataset }) {
