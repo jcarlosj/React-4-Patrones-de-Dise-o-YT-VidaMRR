@@ -9,3 +9,9 @@ exports.todos = [
     { id: 1, title: 'crear video', completed: true },
     { id: 2, title: 'limpiar casa', completed: false }
 ];
+
+exports.newTodos = [
+    { id: 0, title: "Lavar la ropa", completed: false },
+    { id: 1, title: "Pasear a Coqui 🐶", completed: true },
+    { id: 2, title: "Terminar tutorial", completed: false }
+];
