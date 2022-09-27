@@ -1,8 +1,10 @@
 import HocPattern from './components/hoc-pattern/Main';
 import TodoContainer from './components/container-presentational-pattern/Main';
 import ProviderPattern from './components/provider-pattern/Main';
+import CompoundComponentPattern from './components/compound-components-pattern/Main';
 
 import './App.css';
+
 
 function App() {
 	return (
@@ -20,9 +22,13 @@ function App() {
 				<div className="pattern pattern-provider">
 					<ProviderPattern />
 				</div>
+				<div className="pattern pattern-compound-component">
+					<CompoundComponentPattern />
+				</div>
 			</div>
 		</>
 	);
 }
+
 
 export default App;
