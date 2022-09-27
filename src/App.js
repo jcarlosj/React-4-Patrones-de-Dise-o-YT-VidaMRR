@@ -1,5 +1,6 @@
 import HocPattern from './components/hoc-pattern/Main';
 import TodoContainer from './components/container-presentational-pattern/Main';
+import ProviderPattern from './components/provider-pattern/Main';
 
 import './App.css';
 
@@ -15,6 +16,9 @@ function App() {
 				</div>
 				<div className="pattern pattern-container-presentational">
 					<TodoContainer />
+				</div>
+				<div className="pattern pattern-provider">
+					<ProviderPattern />
 				</div>
 			</div>
 		</>
